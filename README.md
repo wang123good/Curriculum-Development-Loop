@@ -4,12 +4,12 @@
 
 ## 项目状态
 
-当前为 v0.1 工作流讨论草案，尚未经过完整课程试跑。项目仓库为 [wang123good/Curriculum-Development-Loop](https://github.com/wang123good/Curriculum-Development-Loop)，通过 Git 同步 Skill 与配套文档。
+当前为 v0.2.0 工作流规范，尚未经过完整真实课程试跑或目标学员效果验证。项目仓库为 [wang123good/Curriculum-Development-Loop](https://github.com/wang123good/Curriculum-Development-Loop)，通过 Git 同步 Skill 与配套文档。
 
 ## 适用对象与约束
 
 - 学员具有 1～3 年软件研发或算法开发经验。
-- 每课核心阅读及必学媒体合计预计 30～40 分钟，实际时间由阅读走查校准；现场试讲时间另行记录。
+- 每课课件阅读目标为 30～40 分钟，定位时确认纯阅读或完整核心学习口径；思考、视频、Demo 操作、等待和试讲分别记录。未确认时按纯阅读估算。
 - 内容需要覆盖技术机制、具体示例、工程取舍与适用边界。
 - 每课应与既有课程形成知识依赖和前后呼应。
 - 选题、框架、教学样章及最终试讲验收由课程负责人参与评审。
@@ -42,6 +42,10 @@ skills/
     references/
       workflow.md
       provenance.md
+      operations.md
+      quality.md
+    assets/
+      course-records.md
 ```
 
 ## 开发与评审约定
@@ -49,6 +53,18 @@ skills/
 调整工作流时记录修改原因、适用范围及影响阶段；单课偏好不自动成为永久规则。保持 Skill 入口简洁，将详细方法放在参考文件中。提交变更前检查文件链接、可选交付项、评审节点及时间约束的一致性。
 
 课程项目应分别维护课程任务书、资料来源、进度与决策、评审问题和版本记录。修改概念后检查所有已启用载体的关联内容。
+
+## v0.2.0 的执行机制
+
+- 用 `course-state.md` 作为课程进度唯一入口，恢复任务时核对实际成果。
+- 阶段交接有最低产物与通过条件，评审绑定成果版本，重大改动触发相关重审。
+- 系列地图管理能力依赖；稳定教学单元 ID 连接底稿与各载体。
+- 试讲区分模拟、负责人评审和真实学员验证；各交付物分别验收。
+- 每轮区分必修项、优化项和后续增强，明确收尾条件。
+- 进行中的课程绑定工作流版本，升级需评估影响并由负责人决定。
+- 默认一个主 Agent 负责整合，按需调用制作能力；不默认启动多 Agent。
+
+使用 [课程记录模板](skills/curriculum-development-loop/assets/course-records.md) 按需建立记录。详细交接见 [状态规范](skills/curriculum-development-loop/references/operations.md)，试讲与产物验收见 [质量规范](skills/curriculum-development-loop/references/quality.md)。模板不包含已完成课程或试跑证据；首门课程选题确定后再执行真实闭环。
 
 ## 来源与许可
 
