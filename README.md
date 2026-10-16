@@ -4,7 +4,7 @@
 
 ## 项目状态
 
-当前为 v0.3.0 工作流规范，尚未经过完整真实课程试跑或目标学员效果验证。项目仓库为 [wang123good/Curriculum-Development-Loop](https://github.com/wang123good/Curriculum-Development-Loop)，通过 Git 同步 Skill 与配套文档。
+当前为 v0.3.1 工作流规范，尚未经过完整真实课程试跑或目标学员效果验证。项目仓库为 [wang123good/Curriculum-Development-Loop](https://github.com/wang123good/Curriculum-Development-Loop)，通过 Git 同步 Skill 与配套文档。
 
 ## 适用对象与约束
 
@@ -64,6 +64,7 @@ skills/
 - 进行中的课程绑定工作流版本，升级需评估影响并由负责人决定。
 - 默认一个主 Agent 负责整合，按需调用制作能力；不默认启动多 Agent。
 - 技术教学检查覆盖核心解释链、机制完整性、简单基线、原理到实现映射和课件独立阅读，嵌入现有评审节点。
+- 轻量检查岗位价值、适学人群、总学习投入和代表性达标任务；复盘区分交付质量、学习效果与岗位应用证据，不强制新增考试或审批。
 
 使用 [课程记录模板](skills/curriculum-development-loop/assets/course-records.md) 按需建立记录。详细交接见 [状态规范](skills/curriculum-development-loop/references/operations.md)，试讲与产物验收见 [质量规范](skills/curriculum-development-loop/references/quality.md)。模板不包含已完成课程或试跑证据；首门课程选题确定后再执行真实闭环。
 

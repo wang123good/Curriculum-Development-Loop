@@ -1,7 +1,7 @@
 ---
 name: curriculum-development-loop
 metadata:
-  version: "0.3.0"
+  version: "0.3.1"
 description: 与课程负责人共同开发 Agent 技术培训课程，涵盖选题、框架评审、资料调研、教学样章、课件制作、试讲及迭代；按需提供教材、概念视频和 Demo。适用于建立课程闭环或继续既有课程开发。
 ---
 
