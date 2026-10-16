@@ -1,0 +1,16 @@
+# Local credentials and machine-specific state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Temporary rendering/build outputs
+tmp/
+temp/
